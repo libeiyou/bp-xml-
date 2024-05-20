@@ -10,8 +10,9 @@ def sort_by_length(input_file, output_file):
     print(f"Strings have been sorted by length and saved to: {output_file}")
 
 def main():
-    input_file = " 你放入的地方"
-    output_file = "你想保存的地方"
+    input_file = "输入文件的路径.txt"  
+    output_file = "输出文件的路径.txt"  
     sort_by_length(input_file, output_file)
+
 if __name__ == "__main__":
     main()
